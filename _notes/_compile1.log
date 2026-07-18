@@ -1,0 +1,301 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.5.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.17.16
+
+> Task :compileJava
+gradlew.bat : C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: ')' 
+expected
+At line:3 char:1
++ & ".\gradlew.bat" compileJava --console=plain --no-daemon 2>&1 | Out- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\grego\...r: ')' expected:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                        ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                         ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                    ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                     ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                 ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                            ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                             ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+ ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+  ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+             ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+              ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                            ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                             ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                           ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                            ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                                          ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, or 
+'}' expected
+                        switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O00
+0,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                                           ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:314: error: case, default, or 
+'}' expected
+                           o0000000ooo00o2, b0
+                           ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:314: error: case, default, or 
+'}' expected
+                           o0000000ooo00o2, b0
+                                          ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:314: error: case, default, or 
+'}' expected
+                           o0000000ooo00o2, b0
+                                            ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:315: error: case, default, or 
+'}' expected
+                        )) {
+                        ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:315: error: case, default, or 
+'}' expected
+                        )) {
+                         ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:315: error: case, default, or 
+'}' expected
+                        )) {
+                           ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO0OOOO0.java:414: error: ')' expected
+            }).whenComplete((void, throwable) -> minecraftclient.execute(() -> this.O00000000(serverlist, throwable)));
+                             ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO0OOOO0.java:414: error: ';' expected
+            }).whenComplete((void, throwable) -> minecraftclient.execute(() -> this.O00000000(serverlist, throwable)));
+                                             ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO0OOOO0.java:414: error: ';' expected
+            }).whenComplete((void, throwable) -> minecraftclient.execute(() -> this.O00000000(serverlist, throwable)));
+                                                                                                                     ^
+27 errors
+
+> Task :compileJava FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/grego/Desktop/wildsrc/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                           ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                      ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                       ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                  ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                   ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                              ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                               ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+   ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+    ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+               ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                              ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                               ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                             ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                              ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                                            ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: case, default, 
+or '}' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                                                                       
+                                                             ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:314: error: case, default, 
+or '}' expected
+                             o0000000ooo00o2, b0
+                             ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:314: error: case, default, 
+or '}' expected
+                             o0000000ooo00o2, b0
+                                            ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:314: error: case, default, 
+or '}' expected
+                             o0000000ooo00o2, b0
+                                              ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:315: error: case, default, 
+or '}' expected
+                          )) {
+                          ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:315: error: case, default, 
+or '}' expected
+                          )) {
+                           ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:315: error: case, default, 
+or '}' expected
+                          )) {
+                             ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO000O.java:313: error: ')' expected
+                          switch (SwitchBootstraps.typeSwitch<"typeSwitch",O000000O000,O000000O000,O000000O000,O000000O
+000,O000000O000,O0000000OOOOO0,O0000000OOOOO0,O0000000OOOOOO>(
+                                                                          ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO0OOOO0.java:414: error: ')' expected
+              }).whenComplete((void, throwable) -> minecraftclient.execute(() -> this.O00000000(serverlist, 
+throwable)));
+                               ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO0OOOO0.java:414: error: ';' expected
+              }).whenComplete((void, throwable) -> minecraftclient.execute(() -> this.O00000000(serverlist, 
+throwable)));
+                                               ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO0OOOO0.java:414: error: ';' expected
+              }).whenComplete((void, throwable) -> minecraftclient.execute(() -> this.O00000000(serverlist, 
+throwable)));
+                                                                                                                       
+^
+  27 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 14s
+1 actionable task: 1 executed

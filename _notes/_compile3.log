@@ -1,0 +1,1218 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.5.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.17.16
+
+> Task :compileJava
+gradlew.bat : C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO00OOO0.java:14: error: 
+cannot find symbol
+At line:3 char:1
++ & ".\gradlew.bat" compileJava --console=plain --no-daemon 2>&1 | Out- ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\grego\...not find symbol:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   public static void O00000000(RenderManager rendermanager, float f, float f1, float f2, float f3, Vector4f vector4f, 
+int i) {
+                                ^
+  symbol:   class RenderManager
+  location: class O00000OO00OOO0
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO00OOO0.java:18: error: cannot find 
+symbol
+   public static void O00000000(RenderManager rendermanager, float f, float f1, float f2, float f3, float f4, int i) {
+                                ^
+  symbol:   class RenderManager
+  location: class O00000OO00OOO0
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO00OOO0.java:26: error: class O00000000 
+is already defined in class O00000OO00OOO0
+      public static class O00000000 {
+                    ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000000OOO000.java:24: error: package 
+o0000000OOO00O does not exist
+            return !o0000000OOO00O.O000000000.get();
+                                  ^
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:6: error: cannot find symbol
+   LINEAR(d0 -> double_),
+                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:7: error: cannot find symbol
+   SIGMOID(d0 -> 1.0 / (1.0 + Math.exp(-double_))),
+                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:8: error: cannot find symbol
+   EASE_IN_QUAD(d0 -> double_ * double_),
+                      ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:8: error: cannot find symbol
+   EASE_IN_QUAD(d0 -> double_ * double_),
+                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:9: error: cannot find symbol
+   EASE_OUT_QUAD(d0 -> double_ * (2.0 - double_)),
+                       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:9: error: cannot find symbol
+   EASE_OUT_QUAD(d0 -> double_ * (2.0 - double_)),
+                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find symbol
+   EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                          ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find symbol
+   EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find symbol
+   EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                          ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find symbol
+   EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find symbol
+   EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                                                                   ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:11: error: cannot find symbol
+   EASE_IN_CUBIC(d0 -> double_ * double_ * double_),
+                       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:11: error: cannot find symbol
+   EASE_IN_CUBIC(d0 -> double_ * double_ * double_),
+                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:11: error: cannot find symbol
+   EASE_IN_CUBIC(d0 -> double_ * double_ * double_),
+                                           ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:14: error: cannot find symbol
+      return d1 = double_ - 1.0 * d1 * d1 + 1.0;
+                  ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                           ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                                                           ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                                                                     ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                                                                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                                                                                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find symbol
+   EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 2.0) 
+* (2.0 * double_ - 2.0) + 1.0),
+                                                                                                                       
+         ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find symbol
+   EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find symbol
+   EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find symbol
+   EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                                           ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find symbol
+   EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                                                     ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:20: error: unexpected type
+      return 1.0 - d1 = double_ - 1.0 * d1 * d1 * d1;
+                 ^
+  required: variable
+  found:    value
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:20: error: cannot find symbol
+      return 1.0 - d1 = double_ - 1.0 * d1 * d1 * d1;
+                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find symbol
+      return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 * 
+d1;
+             ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find symbol
+      return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 * 
+d1;
+                                   ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find symbol
+      return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 * 
+d1;
+                                             ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find symbol
+      return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 * 
+d1;
+                                                       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find symbol
+      return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 * 
+d1;
+                                                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find symbol
+      return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 * 
+d1;
+                                                                                            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find symbol
+   EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find symbol
+   EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find symbol
+   EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                           ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find symbol
+   EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                                     ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find symbol
+   EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                                               ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:29: error: unexpected type
+      return 1.0 + d1 = double_ - 1.0 * d1 * d1 * d1 * d1;
+                 ^
+  required: variable
+  found:    value
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:29: error: cannot find symbol
+      return 1.0 + d1 = double_ - 1.0 * d1 * d1 * d1 * d1;
+                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+             ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+                                    ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+                                              ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+                                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+                                                                  ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+                                                                            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find symbol
+      return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 1.0 
+* d1 * d1 * d1 * d1;
+                                                                                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:35: error: cannot find symbol
+   EASE_IN_SINE(d0 -> 1.0 - Math.cos(double_ * Math.PI / 2.0)),
+                                     ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:36: error: cannot find symbol
+   EASE_OUT_SINE(d0 -> Math.sin(double_ * Math.PI / 2.0)),
+                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:37: error: cannot find symbol
+   EASE_IN_OUT_SINE(d0 -> 1.0 - Math.cos(Math.PI * double_ / 2.0)),
+                                                   ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:38: error: cannot find symbol
+   EASE_IN_EXPO(d0 -> double_ == 0.0 ? 0.0 : Math.pow(2.0, 10.0 * double_ - 10.0)),
+                      ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:38: error: cannot find symbol
+   EASE_IN_EXPO(d0 -> double_ == 0.0 ? 0.0 : Math.pow(2.0, 10.0 * double_ - 10.0)),
+                                                                  ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:39: error: cannot find symbol
+   EASE_OUT_EXPO(d0 -> double_ == 1.0 ? 1.0 : 1.0 - Math.pow(2.0, -10.0 * double_)),
+                       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:39: error: cannot find symbol
+   EASE_OUT_EXPO(d0 -> double_ == 1.0 ? 1.0 : 1.0 - Math.pow(2.0, -10.0 * double_)),
+                                                                          ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:41: error: cannot find symbol
+      d0 -> double_ == 0.0
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - Math.pow(2.0, 
+-20.0 * double_ + 10.0)) / 2.0))
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - Math.pow(2.0, 
+-20.0 * double_ + 10.0)) / 2.0))
+                                    ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - Math.pow(2.0, 
+-20.0 * double_ + 10.0)) / 2.0))
+                                                                         ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - Math.pow(2.0, 
+-20.0 * double_ + 10.0)) / 2.0))
+                                                                                                                       
+       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:45: error: cannot find symbol
+   EASE_IN_CIRC(d0 -> 1.0 - Math.sqrt(1.0 - double_ * double_)),
+                                            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:45: error: cannot find symbol
+   EASE_IN_CIRC(d0 -> 1.0 - Math.sqrt(1.0 - double_ * double_)),
+                                                      ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:48: error: unexpected type
+      return Math.sqrt(1.0 - d1 = double_ - 1.0 * d1);
+                           ^
+  required: variable
+  found:    value
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:48: error: cannot find symbol
+      return Math.sqrt(1.0 - d1 = double_ - 1.0 * d1);
+                                  ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find symbol
+      d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ - 
+1.0) * double_) + 1.0) / 2.0
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find symbol
+      d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ - 
+1.0) * double_) + 1.0) / 2.0
+                                                         ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find symbol
+      d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ - 
+1.0) * double_) + 1.0) / 2.0
+                                                                   ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find symbol
+      d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ - 
+1.0) * double_) + 1.0) / 2.0
+                                                                                                             ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find symbol
+      d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ - 
+1.0) * double_) + 1.0) / 2.0
+                                                                                                                       
+       ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find symbol
+   EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find symbol
+   EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                          ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find symbol
+   EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                                    ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find symbol
+   EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                                                        ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find symbol
+   EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                                                                  ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:54: error: cannot find symbol
+   EASE_OUT_BACK(d0 -> 1.0 + 2.70158 * Math.pow(double_ - 1.0, 3.0) + 1.70158 * Math.pow(double_ - 1.0, 2.0)),
+                                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:54: error: cannot find symbol
+   EASE_OUT_BACK(d0 -> 1.0 + 2.70158 * Math.pow(double_ - 1.0, 3.0) + 1.70158 * Math.pow(double_ - 1.0, 2.0)),
+                                                                                         ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:56: error: cannot find symbol
+      d0 -> double_ < 0.5
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:57: error: cannot find symbol
+         ? Math.pow(2.0 * double_, 2.0) * (7.189819 * double_ - 2.5949095) / 2.0
+                          ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:57: error: cannot find symbol
+         ? Math.pow(2.0 * double_, 2.0) * (7.189819 * double_ - 2.5949095) / 2.0
+                                                      ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:58: error: cannot find symbol
+         : (Math.pow(2.0 * double_ - 2.0, 2.0) * (3.5949095 * (double_ * 2.0 - 2.0) + 2.5949095) + 2.0) / 2.0
+                           ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:58: error: cannot find symbol
+         : (Math.pow(2.0 * double_ - 2.0, 2.0) * (3.5949095 * (double_ * 2.0 - 2.0) + 2.5949095) + 2.0) / 2.0
+                                                               ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find symbol
+      d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ * 
+10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find symbol
+      d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ * 
+10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+                                    ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find symbol
+      d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ * 
+10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+                                                                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find symbol
+      d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ * 
+10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+                                                                                                             ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:64: error: cannot find symbol
+      d0 -> double_ == 0.0
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:66: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : Math.pow(2.0, -10.0 * double_) * Math.sin((double_ * 10.0 - 0.75) * (Math.PI * 2.0 
+/ 3.0)) * 0.5 + 1.0)
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:66: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : Math.pow(2.0, -10.0 * double_) * Math.sin((double_ * 10.0 - 0.75) * (Math.PI * 2.0 
+/ 3.0)) * 0.5 + 1.0)
+                                                         ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:66: error: cannot find symbol
+         : (double_ == 1.0 ? 1.0 : Math.pow(2.0, -10.0 * double_) * Math.sin((double_ * 10.0 - 0.75) * (Math.PI * 2.0 
+/ 3.0)) * 0.5 + 1.0)
+                                                                              ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:69: error: cannot find symbol
+      d0 -> double_ == 0.0
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:72: error: cannot find symbol
+            double_ == 1.0
+            ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:75: error: cannot find symbol
+                  double_ < 0.5
+                  ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:76: error: cannot find symbol
+                     ? -(Math.pow(2.0, 20.0 * double_ - 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 / 
+9.0))) / 2.0
+                                              ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:76: error: cannot find symbol
+                     ? -(Math.pow(2.0, 20.0 * double_ - 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 / 
+9.0))) / 2.0
+                                                                                 ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:77: error: cannot find symbol
+                     : Math.pow(2.0, -20.0 * double_ + 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 / 
+9.0)) / 2.0 + 1.0
+                                             ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:77: error: cannot find symbol
+                     : Math.pow(2.0, -20.0 * double_ + 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 / 
+9.0)) / 2.0 + 1.0
+                                                                                ^
+  symbol:   variable double_
+  location: class O0000O0O0000
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+
+> Task :compileJava FAILED
+
+
+[Incubating] Problems report is available at: file:///C:/Users/grego/Desktop/wildsrc/build/reports/problems/problems-report.html
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:20: error: unexpected type
+        return 1.0 - d1 = double_ - 1.0 * d1 * d1 * d1;
+                   ^
+    required: variable
+    found:    value
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:29: error: unexpected type
+        return 1.0 + d1 = double_ - 1.0 * d1 * d1 * d1 * d1;
+                   ^
+    required: variable
+    found:    value
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:48: error: unexpected type
+        return Math.sqrt(1.0 - d1 = double_ - 1.0 * d1);
+                             ^
+    required: variable
+    found:    value
+  Note: Recompile with -Xlint:deprecation for details.
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO00OOO0.java:14: error: cannot find 
+symbol
+     public static void O00000000(RenderManager rendermanager, float f, float f1, float f2, float f3, Vector4f 
+vector4f, int i) {
+                                  ^
+    symbol:   class RenderManager
+    location: class O00000OO00OOO0
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO00OOO0.java:18: error: cannot find 
+symbol
+     public static void O00000000(RenderManager rendermanager, float f, float f1, float f2, float f3, float f4, int i) 
+{
+                                  ^
+    symbol:   class RenderManager
+    location: class O00000OO00OOO0
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:6: error: cannot find symbol
+     LINEAR(d0 -> double_),
+                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:7: error: cannot find symbol
+     SIGMOID(d0 -> 1.0 / (1.0 + Math.exp(-double_))),
+                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:8: error: cannot find symbol
+     EASE_IN_QUAD(d0 -> double_ * double_),
+                        ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:8: error: cannot find symbol
+     EASE_IN_QUAD(d0 -> double_ * double_),
+                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:9: error: cannot find symbol
+     EASE_OUT_QUAD(d0 -> double_ * (2.0 - double_)),
+                         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:9: error: cannot find symbol
+     EASE_OUT_QUAD(d0 -> double_ * (2.0 - double_)),
+                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find 
+symbol
+     EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                            ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find 
+symbol
+     EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find 
+symbol
+     EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                            ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find 
+symbol
+     EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:10: error: cannot find 
+symbol
+     EASE_IN_OUT_QUAD(d0 -> double_ < 0.5 ? 2.0 * double_ * double_ : -1.0 + (4.0 - 2.0 * double_) * double_),
+                                                                                                     ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:11: error: cannot find 
+symbol
+     EASE_IN_CUBIC(d0 -> double_ * double_ * double_),
+                         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:11: error: cannot find 
+symbol
+     EASE_IN_CUBIC(d0 -> double_ * double_ * double_),
+                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:11: error: cannot find 
+symbol
+     EASE_IN_CUBIC(d0 -> double_ * double_ * double_),
+                                             ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:14: error: cannot find 
+symbol
+        return d1 = double_ - 1.0 * d1 * d1 + 1.0;
+                    ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                             ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                                                             ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                                                                       ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                                                                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                                                                                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:16: error: cannot find 
+symbol
+     EASE_IN_OUT_CUBIC(d0 -> double_ < 0.5 ? 4.0 * double_ * double_ * double_ : (double_ - 1.0) * (2.0 * double_ - 
+2.0) * (2.0 * double_ - 2.0) + 1.0),
+                                                                                                                       
+           ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find 
+symbol
+     EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find 
+symbol
+     EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find 
+symbol
+     EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                                             ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:17: error: cannot find 
+symbol
+     EASE_IN_QUART(d0 -> double_ * double_ * double_ * double_),
+                                                       ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:20: error: cannot find 
+symbol
+        return 1.0 - d1 = double_ - 1.0 * d1 * d1 * d1;
+                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find 
+symbol
+        return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 
+* d1;
+               ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find 
+symbol
+        return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 
+* d1;
+                                     ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find 
+symbol
+        return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 
+* d1;
+                                               ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find 
+symbol
+        return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 
+* d1;
+                                                         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find 
+symbol
+        return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 
+* d1;
+                                                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:24: error: cannot find 
+symbol
+        return double_ < 0.5 ? 8.0 * double_ * double_ * double_ * double_ : 1.0 - 8.0 * d1 = double_ - 1.0 * d1 * d1 
+* d1;
+                                                                                              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find 
+symbol
+     EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find 
+symbol
+     EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find 
+symbol
+     EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                             ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find 
+symbol
+     EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                                       ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:26: error: cannot find 
+symbol
+     EASE_IN_QUINT(d0 -> double_ * double_ * double_ * double_ * double_),
+                                                                 ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:29: error: cannot find 
+symbol
+        return 1.0 + d1 = double_ - 1.0 * d1 * d1 * d1 * d1;
+                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+               ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+                                      ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+                                                ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+                                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+                                                                    ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+                                                                              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:33: error: cannot find 
+symbol
+        return double_ < 0.5 ? 16.0 * double_ * double_ * double_ * double_ * double_ : 1.0 + 16.0 * d1 = double_ - 
+1.0 * d1 * d1 * d1 * d1;
+                                                                                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:35: error: cannot find 
+symbol
+     EASE_IN_SINE(d0 -> 1.0 - Math.cos(double_ * Math.PI / 2.0)),
+                                       ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:36: error: cannot find 
+symbol
+     EASE_OUT_SINE(d0 -> Math.sin(double_ * Math.PI / 2.0)),
+                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:37: error: cannot find 
+symbol
+     EASE_IN_OUT_SINE(d0 -> 1.0 - Math.cos(Math.PI * double_ / 2.0)),
+                                                     ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:38: error: cannot find 
+symbol
+     EASE_IN_EXPO(d0 -> double_ == 0.0 ? 0.0 : Math.pow(2.0, 10.0 * double_ - 10.0)),
+                        ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:38: error: cannot find 
+symbol
+     EASE_IN_EXPO(d0 -> double_ == 0.0 ? 0.0 : Math.pow(2.0, 10.0 * double_ - 10.0)),
+                                                                    ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:39: error: cannot find 
+symbol
+     EASE_OUT_EXPO(d0 -> double_ == 1.0 ? 1.0 : 1.0 - Math.pow(2.0, -10.0 * double_)),
+                         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:39: error: cannot find 
+symbol
+     EASE_OUT_EXPO(d0 -> double_ == 1.0 ? 1.0 : 1.0 - Math.pow(2.0, -10.0 * double_)),
+                                                                            ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:41: error: cannot find 
+symbol
+        d0 -> double_ == 0.0
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - 
+Math.pow(2.0, -20.0 * double_ + 10.0)) / 2.0))
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - 
+Math.pow(2.0, -20.0 * double_ + 10.0)) / 2.0))
+                                      ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - 
+Math.pow(2.0, -20.0 * double_ + 10.0)) / 2.0))
+                                                                           ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:43: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : (double_ < 0.5 ? Math.pow(2.0, 20.0 * double_ - 10.0) / 2.0 : (2.0 - 
+Math.pow(2.0, -20.0 * double_ + 10.0)) / 2.0))
+                                                                                                                       
+         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:45: error: cannot find 
+symbol
+     EASE_IN_CIRC(d0 -> 1.0 - Math.sqrt(1.0 - double_ * double_)),
+                                              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:45: error: cannot find 
+symbol
+     EASE_IN_CIRC(d0 -> 1.0 - Math.sqrt(1.0 - double_ * double_)),
+                                                        ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:48: error: cannot find 
+symbol
+        return Math.sqrt(1.0 - d1 = double_ - 1.0 * d1);
+                                    ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find 
+symbol
+        d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ 
+- 1.0) * double_) + 1.0) / 2.0
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find 
+symbol
+        d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ 
+- 1.0) * double_) + 1.0) / 2.0
+                                                           ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find 
+symbol
+        d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ 
+- 1.0) * double_) + 1.0) / 2.0
+                                                                     ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find 
+symbol
+        d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ 
+- 1.0) * double_) + 1.0) / 2.0
+                                                                                                               ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:51: error: cannot find 
+symbol
+        d0 -> double_ < 0.5 ? (1.0 - Math.sqrt(1.0 - 4.0 * double_ * double_)) / 2.0 : (Math.sqrt(1.0 - 4.0 * (double_ 
+- 1.0) * double_) + 1.0) / 2.0
+                                                                                                                       
+         ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find 
+symbol
+     EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find 
+symbol
+     EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                            ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find 
+symbol
+     EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                                      ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find 
+symbol
+     EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                                                          ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:53: error: cannot find 
+symbol
+     EASE_IN_BACK(d0 -> 2.70158 * double_ * double_ * double_ - 1.70158 * double_ * double_),
+                                                                                    ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:54: error: cannot find 
+symbol
+     EASE_OUT_BACK(d0 -> 1.0 + 2.70158 * Math.pow(double_ - 1.0, 3.0) + 1.70158 * Math.pow(double_ - 1.0, 2.0)),
+                                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:54: error: cannot find 
+symbol
+     EASE_OUT_BACK(d0 -> 1.0 + 2.70158 * Math.pow(double_ - 1.0, 3.0) + 1.70158 * Math.pow(double_ - 1.0, 2.0)),
+                                                                                           ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:56: error: cannot find 
+symbol
+        d0 -> double_ < 0.5
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:57: error: cannot find 
+symbol
+           ? Math.pow(2.0 * double_, 2.0) * (7.189819 * double_ - 2.5949095) / 2.0
+                            ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:57: error: cannot find 
+symbol
+           ? Math.pow(2.0 * double_, 2.0) * (7.189819 * double_ - 2.5949095) / 2.0
+                                                        ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:58: error: cannot find 
+symbol
+           : (Math.pow(2.0 * double_ - 2.0, 2.0) * (3.5949095 * (double_ * 2.0 - 2.0) + 2.5949095) + 2.0) / 2.0
+                             ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:58: error: cannot find 
+symbol
+           : (Math.pow(2.0 * double_ - 2.0, 2.0) * (3.5949095 * (double_ * 2.0 - 2.0) + 2.5949095) + 2.0) / 2.0
+                                                                 ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find 
+symbol
+        d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ 
+* 10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find 
+symbol
+        d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ 
+* 10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+                                      ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find 
+symbol
+        d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ 
+* 10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+                                                                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:61: error: cannot find 
+symbol
+        d0 -> double_ == 0.0 ? 0.0 : (double_ == 1.0 ? 1.0 : -Math.pow(2.0, 10.0 * double_ - 10.0) * Math.sin((double_ 
+* 10.0 - 10.75) * (Math.PI * 2.0 / 3.0)))
+                                                                                                               ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:64: error: cannot find 
+symbol
+        d0 -> double_ == 0.0
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:66: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : Math.pow(2.0, -10.0 * double_) * Math.sin((double_ * 10.0 - 0.75) * (Math.PI * 
+2.0 / 3.0)) * 0.5 + 1.0)
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:66: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : Math.pow(2.0, -10.0 * double_) * Math.sin((double_ * 10.0 - 0.75) * (Math.PI * 
+2.0 / 3.0)) * 0.5 + 1.0)
+                                                           ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:66: error: cannot find 
+symbol
+           : (double_ == 1.0 ? 1.0 : Math.pow(2.0, -10.0 * double_) * Math.sin((double_ * 10.0 - 0.75) * (Math.PI * 
+2.0 / 3.0)) * 0.5 + 1.0)
+                                                                                ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:69: error: cannot find 
+symbol
+        d0 -> double_ == 0.0
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:72: error: cannot find 
+symbol
+              double_ == 1.0
+              ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:75: error: cannot find 
+symbol
+                    double_ < 0.5
+                    ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:76: error: cannot find 
+symbol
+                       ? -(Math.pow(2.0, 20.0 * double_ - 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 
+/ 9.0))) / 2.0
+                                                ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:76: error: cannot find 
+symbol
+                       ? -(Math.pow(2.0, 20.0 * double_ - 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 
+/ 9.0))) / 2.0
+                                                                                   ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:77: error: cannot find 
+symbol
+                       : Math.pow(2.0, -20.0 * double_ + 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 / 
+9.0)) / 2.0 + 1.0
+                                               ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000O0O0000.java:77: error: cannot find 
+symbol
+                       : Math.pow(2.0, -20.0 * double_ + 10.0) * Math.sin((20.0 * double_ - 11.125) * (Math.PI * 4.0 / 
+9.0)) / 2.0 + 1.0
+                                                                                  ^
+    symbol:   variable double_
+    location: class O0000O0O0000
+  Note: Recompile with -Xlint:unchecked for details.
+  Note: Some input files use or override a deprecated API.
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  Note: Some input files use unchecked or unsafe operations.
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O0000000OOO000.java:24: error: package 
+o0000000OOO00O does not exist
+              return !o0000000OOO00O.O000000000.get();
+                                    ^
+  C:\Users\grego\Desktop\wildsrc\src\main\java\ru\metaculture\protection\O00000OO00OOO0.java:26: error: class 
+O00000000 is already defined in class O00000OO00OOO0
+        public static class O00000000 {
+                      ^
+  100 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 9s
+1 actionable task: 1 executed

@@ -1,0 +1,412 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.5.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Fabric Loom: 1.17.16
+
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :generateLog4jConfig UP-TO-DATE
+> Task :generateRemapClasspath UP-TO-DATE
+> Task :generateDLIConfig UP-TO-DATE
+> Task :configureLaunch UP-TO-DATE
+> Task :downloadAssets UP-TO-DATE
+> Task :configureClientLaunch UP-TO-DATE
+
+> Task :runClient
+[15:15:28] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.8 with Fabric Loader 0.19.3
+[15:15:28] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod wild uses the version v1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'v1'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[15:15:28] [main/INFO] (FabricLoader) Loading 58 mods:
+	- baritone-meteor 1.21.8-SNAPSHOT
+	- dev_babbaj_nether-pathfinder 1.4.1
+	- fabric-api 0.136.1+1.21.8
+	- fabric-api-base 0.5.0+cd8c0daa2c
+	- fabric-api-lookup-api-v1 1.6.101+946bf4c32c
+	- fabric-biome-api-v1 16.1.0+c21d71cc2c
+	- fabric-block-api-v1 1.1.3+946bf4c32c
+	- fabric-block-view-api-v2 1.0.31+946bf4c32c
+	- fabric-client-gametest-api-v1 4.2.5+8a98c3fc2c
+	- fabric-command-api-v2 2.3.1+52fff9ec2c
+	- fabric-content-registries-v0 10.1.0+c75de69d2c
+	- fabric-convention-tags-v1 2.1.41+7f945d5b2c
+	- fabric-convention-tags-v2 2.15.6+eb5df52f2c
+	- fabric-crash-report-info-v1 0.3.15+946bf4c32c
+	- fabric-data-attachment-api-v1 1.8.14+97214db32c
+	- fabric-data-generation-api-v1 23.2.8+2e1c6d322c
+	- fabric-dimensions-v1 4.0.20+948fc79a2c
+	- fabric-entity-events-v1 2.1.2+c9e472732c
+	- fabric-events-interaction-v0 4.0.26+946bf4c32c
+	- fabric-game-rule-api-v1 1.0.73+c64c9c5b2c
+	- fabric-gametest-api-v1 3.1.10+39ce47f52c
+	- fabric-item-api-v1 11.5.0+02ce13f42c
+	- fabric-item-group-api-v1 4.2.14+c5f9bbc12c
+	- fabric-key-binding-api-v1 1.0.65+946bf4c32c
+	- fabric-lifecycle-events-v1 2.6.4+db4dfd852c
+	- fabric-loot-api-v2 3.0.56+3f89f5a52c
+	- fabric-loot-api-v3 2.0.3+946bf4c32c
+	- fabric-message-api-v1 6.1.2+946bf4c32c
+	- fabric-model-loading-api-v1 5.2.8+946bf4c32c
+	- fabric-networking-api-v1 5.1.0+57cb96dd2c
+	- fabric-object-builder-api-v1 21.1.10+946bf4c32c
+	- fabric-particles-v1 4.1.10+946bf4c32c
+	- fabric-recipe-api-v1 8.1.17+946bf4c32c
+	- fabric-registry-sync-v0 6.1.30+946bf4c32c
+	- fabric-renderer-api-v1 7.0.5+208eed172c
+	- fabric-renderer-indigo 4.0.5+946bf4c32c
+	- fabric-rendering-fluids-v1 3.1.31+fa6cb72b2c
+	- fabric-rendering-v1 12.6.0+486b7ff72c
+	- fabric-resource-conditions-api-v1 5.0.25+98e6d6db2c
+	- fabric-resource-loader-v0 3.1.12+020423442c
+	- fabric-screen-api-v1 2.2.0+e0cb65d02c
+	- fabric-screen-handler-api-v1 1.3.139+946bf4c32c
+	- fabric-serialization-api-v1 1.0.0+fc0e5aba2c
+	- fabric-sound-api-v1 1.0.42+946bf4c32c
+	- fabric-tag-api-v1 1.2.2+946bf4c32c
+	- fabric-transfer-api-v1 6.0.6+946bf4c32c
+	- fabric-transitive-access-wideners-v1 6.5.0+c847ce762c
+	- fabricloader 0.19.3
+	- io_netty_netty-codec-socks 4.1.101
+	- io_netty_netty-handler-proxy 4.1.101
+	- java 21
+	- minecraft 1.21.8
+	- mixinextras 0.5.4
+	- org_java-websocket_java-websocket 1.5.6
+	- org_javassist_javassist 3.29.2-GA
+	- org_json_json 20230618
+	- org_reflections_reflections 0.10.2
+	- wild v1
+[15:15:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/grego/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/41c4a3984a80f4679e759fb9f495587acc5cdac7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[15:15:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:15:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[15:15:29] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[15:15:29] [Datafixer Bootstrap/INFO] (Minecraft) 269 Datafixer optimizations took 245 milliseconds
+[15:15:33] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/client/player/LocalPlayer (java.lang.ClassNotFoundException: net/minecraft/client/player/LocalPlayer)
+[15:15:33] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:15:33] [Render thread/INFO] (Minecraft) Setting user: Player897
+[15:15:33] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[15:15:33] [Render thread/INFO] (Minecraft) [STDOUT]: [Client] init failed: UnsatisfiedLinkError: 'void ru.metaculture.protection.ModuleManager.O00000000()'
+[15:15:33] [Render thread/INFO] (Minecraft) [STDOUT]: [Client] init failed: UnsatisfiedLinkError: 'void ru.metaculture.protection.Command.O00000000(java.lang.String, java.util.function.Supplier)'
+[15:15:33] [Render thread/INFO] (Minecraft) [STDOUT]: [Client] init failed: UnsatisfiedLinkError: 'java.io.File ru.metaculture.protection.ConfigManager.O000000000000O()'
+[15:15:34] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[15:15:34] [Render thread/WARN] (Minecraft) Detected unexpected shutdown during last game startup: resetting fullscreen mode
+[15:15:34] [Render thread/INFO] (Minecraft) Using optional rendering extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[15:15:35] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, wild
+[15:15:35] [Worker-Main-9/INFO] (Minecraft) Found unifont_all_no_pua-16.0.03.hex, loading
+[15:15:35] [Worker-Main-13/INFO] (Minecraft) Found unifont_pua-16.0.03.hex, loading
+[15:15:35] [Render thread/INFO] (Minecraft) [CHAT] [Baritone] Baritone settings file not found, resetting.
+[15:15:35] [Worker-Main-12/INFO] (Minecraft) Found unifont_jp_patch-16.0.03.hex, loading
+[15:15:35] [Render thread/INFO] (Minecraft) [STDOUT]: [nether-pathfinder] Created temp file at C:\Users\grego\AppData\Local\Temp\nether_pathfinder-x86_6410966473679753417821.dll
+[15:15:35] [Render thread/INFO] (Minecraft) [STDERR]: [nether-pathfinder] Failed to delete temp file
+[15:15:35] [Render thread/INFO] (Minecraft) [STDOUT]: [nether-pathfinder] Loaded shared library
+[15:15:37] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[15:15:37] [Render thread/INFO] (Minecraft) Sound engine started
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[15:15:37] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[15:15:37] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=1 gl=drawFbo=0 readFbo=0 program=0 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=false depth=false scissor=false
+[15:15:39] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=877 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:41] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=1829 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:43] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=2785 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:45] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=3737 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:47] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=4685 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:49] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=5637 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:51] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=6585 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:53] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=7537 gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:55] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=AccessibilityOnboardingScreen kind=vanilla frame=8517 gl=drawFbo=0 readFbo=0 program=100 viewport=0x0+854x480 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:57] [Render thread/INFO] (Minecraft) Loaded 1407 recipes
+[15:15:57] [Render thread/INFO] (Minecraft) Loaded 1520 advancements
+[15:15:57] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.backdrop screen=CreateWorldScreen kind=vanilla frame=8926 detail=shader-backdrop gl=drawFbo=0 readFbo=0 program=192 viewport=0x0+2560x1511 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:15:59] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 65 new biomes in 1.047 ms
+[15:15:59] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.21.8
+[15:15:59] [Server thread/INFO] (Minecraft) Generating keypair
+[15:15:59] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderWithTooltip.ripple.begin screen=LevelLoadingScreen kind=vanilla frame=10055 gl=drawFbo=4 readFbo=4 program=192 viewport=0x0+2560x1511 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:16:01] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:16:01] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
+[15:16:01] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=LevelLoadingScreen kind=vanilla frame=10425 gl=drawFbo=0 readFbo=0 program=50 viewport=0x0+2560x1511 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 2%
+[15:16:02] [Render thread/INFO] (Minecraft) Preparing spawn area: 18%
+[15:16:03] [Render thread/INFO] (Minecraft) Preparing spawn area: 51%
+[15:16:03] [Render thread/INFO] (Minecraft) Time elapsed: 1642 ms
+[15:16:03] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[15:16:03] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[15:16:03] [Render thread/INFO] (O0000O00OO0OO) [ScreenRender] phase=renderBackground.vanilla screen=LevelLoadingScreen kind=vanilla frame=10695 gl=drawFbo=0 readFbo=0 program=50 viewport=0x0+2560x1511 fbStatus=0x8cd5 colorMask=true blend=true depth=true scissor=false
+[15:16:04] [Server thread/INFO] (Minecraft) lemonchuk1[local:E:1f27231f] logged in with entity id 3 at (6.5, 85.0, -6.5)
+[15:16:04] [Server thread/INFO] (Minecraft) lemonchuk1 joined the game
+[15:16:04] [Render thread/INFO] (Minecraft) [STDOUT]: Baritone world data dir: C:\Users\grego\Desktop\wildsrc\run\saves\New World\.\baritone\minecraft\overworld_384
+[15:16:04] [Render thread/INFO] (Minecraft) [STDOUT]: Cached world directory: C:\Users\grego\Desktop\wildsrc\run\saves\New World\.\baritone\minecraft\overworld_384\cache
+[15:16:04] [Render thread/INFO] (Minecraft) [STDOUT]: Would save waypoints to C:\Users\grego\Desktop\wildsrc\run\saves\New World\.\baritone\minecraft\overworld_384\waypoints
+[15:16:04] [Render thread/ERROR] (Minecraft) Unreported exception thrown!
+java.lang.NullPointerException: Cannot invoke "ru.metaculture.protection.ModuleManager.O000000000(java.lang.Class)" because "ru.metaculture.protection.WildClient.O00000000.O000000000" is null
+	at knot/ru.metaculture.protection.AspectRatio.O0000000000O0(AspectRatio.java:24) ~[main/:?]
+	at knot/net.minecraft.client.render.GameRenderer.handler$bce000$wild$getBasicProjectionMatrix(GameRenderer.java:1495) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.render.GameRenderer.getBasicProjectionMatrix(GameRenderer.java) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.render.GameRenderer.renderWorld(GameRenderer.java:697) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.render.GameRenderer.render(GameRenderer.java:506) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1361) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.MinecraftClient.run(MinecraftClient.java:947) [minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.client.main.Main.main(Main.java:265) [minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) [fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.19.3.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]
+[15:16:04] [Server thread/ERROR] (Minecraft) Encountered an unexpected exception
+net.minecraft.util.crash.CrashException: Ticking player
+	at knot/net.minecraft.server.ServerNetworkIo.tick(ServerNetworkIo.java:179) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.tickNetworkIo(MinecraftServer.java:1094) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer.java:1074) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:947) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:114) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:291) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "ru.metaculture.protection.ModuleManager.O00000000(java.lang.Class)" because "ru.metaculture.protection.WildClient.O00000000.O000000000" is null
+	at knot/net.minecraft.entity.player.HungerManager.handler$bak000$wild$onGetFoodLevel(HungerManager.java:519) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.entity.player.HungerManager.getFoodLevel(HungerManager.java) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.network.ServerPlayerEntity.playerTick(ServerPlayerEntity.java:753) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.network.ServerPlayNetworkHandler.tick(ServerPlayNetworkHandler.java:294) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.network.ClientConnection.tick(ClientConnection.java:396) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	at knot/net.minecraft.server.ServerNetworkIo.tick(ServerNetworkIo.java:176) ~[minecraft-merged-6790506c70-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2.jar:?]
+	... 7 more
+[15:16:04] [Server thread/ERROR] (Minecraft) This crash report has been saved to: C:\Users\grego\Desktop\wildsrc\run\crash-reports\crash-2026-07-18_15.16.04-server.txt
+[15:16:04] [Server thread/INFO] (Minecraft) Stopping server
+[15:16:04] [Server thread/INFO] (Minecraft) Saving players
+[15:16:04] [Server thread/INFO] (Minecraft) Saving worlds
+[15:16:04] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15:16:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15:16:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15:16:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[15:16:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:16:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:16:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[15:16:05] [Render thread/WARN] (O00000000OO0OO) [WildCore] tracker=WS-F8F2640F code=PHASE_ORDER snapshot=pending
+---- Minecraft Crash Report ----
+// Why did you do that?
+
+Time: 2026-07-18 15:16:05
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "ru.metaculture.protection.ModuleManager.O000000000(java.lang.Class)" because "ru.metaculture.protection.WildClient.O00000000.O000000000" is null
+	at knot//ru.metaculture.protection.AspectRatio.O0000000000O0(AspectRatio.java:24)
+	at knot//net.minecraft.client.render.GameRenderer.handler$bce000$wild$getBasicProjectionMatrix(GameRenderer.java:1495)
+	at knot//net.minecraft.client.render.GameRenderer.getBasicProjectionMatrix(GameRenderer.java)
+	at knot//net.minecraft.client.render.GameRenderer.renderWorld(GameRenderer.java:697)
+	at knot//net.minecraft.client.render.GameRenderer.render(GameRenderer.java:506)
+	at knot//net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1361)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:947)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//ru.metaculture.protection.AspectRatio.O0000000000O0(AspectRatio.java:24)
+	at knot//net.minecraft.client.render.GameRenderer.handler$bce000$wild$getBasicProjectionMatrix(GameRenderer.java:1495)
+	at knot//net.minecraft.client.render.GameRenderer.getBasicProjectionMatrix(GameRenderer.java)
+	at knot//net.minecraft.client.render.GameRenderer.renderWorld(GameRenderer.java:697)
+
+-- Uptime --
+Details:
+	JVM uptime: 37.524s
+	Wall uptime: 31.454s
+	High-res time: 30.509s
+	Client ticks: 491 ticks / 24.550s
+Stacktrace:
+	at knot//net.minecraft.client.MinecraftClient.addDetailsToCrashReport(MinecraftClient.java:2411)
+	at knot//net.minecraft.client.MinecraftClient.printCrashReport(MinecraftClient.java:1016)
+	at knot//net.minecraft.client.MinecraftClient.run(MinecraftClient.java:971)
+	at knot//net.minecraft.client.main.Main.main(Main.java:265)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+
+-- Affected level --
+Details:
+	All players: 1 total; ClientPlayerEntity{name=lemonchuk1, id=3, pos=(6.5, 85.0, -6.5), mode=CREATIVE, permission=4}
+	Chunk stats: 961, 0
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,137,0), Section: (at 0,9,0 in 0,8,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 17 game time, 17 day time
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+	Tracked entity count: 1
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, wild
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.8
+	Minecraft Version ID: 1.21.8
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.11, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 55346784 bytes (52 MiB) / 696254464 bytes (664 MiB) up to 17028874240 bytes (16240 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) Ultra 9 275HX
+	Identifier: Intel64 Family 6 Model 198 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 3.07
+	Number of physical packages: 1
+	Number of physical CPUs: 24
+	Number of logical CPUs: 24
+	Graphics card #0 name: Intel(R) Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 2048.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.101.8331
+	Graphics card #1 name: NVIDIA GeForce RTX 5090 Laptop GPU
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 24463.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.16.1062
+	Memory slot #0 capacity (MiB): 32768.00
+	Memory slot #0 clockSpeed (GHz): 6.40
+	Memory slot #0 type: DDR5
+	Memory slot #1 capacity (MiB): 32768.00
+	Memory slot #1 clockSpeed (GHz): 6.40
+	Memory slot #1 type: DDR5
+	Virtual memory max (MiB): 72381.37
+	Virtual memory used (MiB): 41499.13
+	Swap memory total (MiB): 7424.00
+	Swap memory used (MiB): 127.02
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 1348456.63, total: 1951047.00
+	Space in storage for workdir (MiB): available: 1348456.63, total: 1951047.00
+	JVM Flags: 0 total; 
+	Fabric Mods: 
+		baritone-meteor: Baritone 1.21.8-SNAPSHOT
+		dev_babbaj_nether-pathfinder: nether-pathfinder 1.4.1
+		fabric-api: Fabric API 0.136.1+1.21.8
+		fabric-api-base: Fabric API Base 0.5.0+cd8c0daa2c
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.101+946bf4c32c
+		fabric-biome-api-v1: Fabric Biome API (v1) 16.1.0+c21d71cc2c
+		fabric-block-api-v1: Fabric Block API (v1) 1.1.3+946bf4c32c
+		fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.31+946bf4c32c
+		fabric-client-gametest-api-v1: Fabric Client Game Test API (v1) 4.2.5+8a98c3fc2c
+		fabric-command-api-v2: Fabric Command API (v2) 2.3.1+52fff9ec2c
+		fabric-content-registries-v0: Fabric Content Registries (v0) 10.1.0+c75de69d2c
+		fabric-convention-tags-v1: Fabric Convention Tags 2.1.41+7f945d5b2c
+		fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.15.6+eb5df52f2c
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.3.15+946bf4c32c
+		fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.8.14+97214db32c
+		fabric-data-generation-api-v1: Fabric Data Generation API (v1) 23.2.8+2e1c6d322c
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.20+948fc79a2c
+		fabric-entity-events-v1: Fabric Entity Events (v1) 2.1.2+c9e472732c
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 4.0.26+946bf4c32c
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.73+c64c9c5b2c
+		fabric-gametest-api-v1: Fabric Game Test API (v1) 3.1.10+39ce47f52c
+		fabric-item-api-v1: Fabric Item API (v1) 11.5.0+02ce13f42c
+		fabric-item-group-api-v1: Fabric Item Group API (v1) 4.2.14+c5f9bbc12c
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.65+946bf4c32c
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.6.4+db4dfd852c
+		fabric-loot-api-v2: Fabric Loot API (v2) 3.0.56+3f89f5a52c
+		fabric-loot-api-v3: Fabric Loot API (v3) 2.0.3+946bf4c32c
+		fabric-message-api-v1: Fabric Message API (v1) 6.1.2+946bf4c32c
+		fabric-model-loading-api-v1: Fabric Model Loading API (v1) 5.2.8+946bf4c32c
+		fabric-networking-api-v1: Fabric Networking API (v1) 5.1.0+57cb96dd2c
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 21.1.10+946bf4c32c
+		fabric-particles-v1: Fabric Particles (v1) 4.1.10+946bf4c32c
+		fabric-recipe-api-v1: Fabric Recipe API (v1) 8.1.17+946bf4c32c
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 6.1.30+946bf4c32c
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 7.0.5+208eed172c
+		fabric-renderer-indigo: Fabric Renderer - Indigo 4.0.5+946bf4c32c
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.31+fa6cb72b2c
+		fabric-rendering-v1: Fabric Rendering (v1) 12.6.0+486b7ff72c
+		fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 5.0.25+98e6d6db2c
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.1.12+020423442c
+		fabric-screen-api-v1: Fabric Screen API (v1) 2.2.0+e0cb65d02c
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.139+946bf4c32c
+		fabric-serialization-api-v1: Fabric Serialization API (v1) 1.0.0+fc0e5aba2c
+		fabric-sound-api-v1: Fabric Sound API (v1) 1.0.42+946bf4c32c
+		fabric-tag-api-v1: Fabric Tag API (v1) 1.2.2+946bf4c32c
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 6.0.6+946bf4c32c
+		fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.5.0+c847ce762c
+		fabricloader: Fabric Loader 0.19.3
+		io_netty_netty-codec-socks: netty-codec-socks 4.1.101
+		io_netty_netty-handler-proxy: netty-handler-proxy 4.1.101
+		java: OpenJDK 64-Bit Server VM 21
+		minecraft: Minecraft 1.21.8
+		mixinextras: MixinExtras 0.5.4
+		org_java-websocket_java-websocket: Java-WebSocket 1.5.6
+		org_javassist_javassist: javassist 3.29.2-GA
+		org_json_json: json 20230618
+		org_reflections_reflections: reflections 0.10.2
+		wild: Wild v1
+	Launched Version: Fabric
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: NVIDIA GeForce RTX 5090 Laptop GPU/PCIe/SSE2 GL version 3.2.0 NVIDIA 610.62, NVIDIA Corporation
+	Window size: 2560x1511
+	GFLW Platform: win32
+	Render Extensions: GL_ARB_buffer_storage, GL_KHR_debug, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Universe: 400921fb54442d18
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Render Distance: 12/12 chunks
+	Resource Packs: vanilla, fabric, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-client-gametest-api-v1, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, wild
+	Current Language: en_us
+	Locale: en_US
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 24x Intel(R) Core(TM) Ultra 9 275HX
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayerEntity['lemonchuk1'/3, l='ServerLevel[New World]', x=6.50, y=85.00, z=-6.50]]
+	Active Data Packs: vanilla, fabric, fabric-convention-tags-v2, fabric-gametest-api-v1
+	Available Data Packs: fabric, fabric-convention-tags-v2, fabric-gametest-api-v1, minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -679244648937374360
+	Suppressed Exceptions: ~~NONE~~
+#@!@# Game crashed! Crash report saved to: #@!@# C:\Users\grego\Desktop\wildsrc\run\crash-reports\crash-2026-07-18_15.16.05-client.txt
+[15:16:05] [Wild-Client-Shutdown/INFO] (Minecraft) [STDOUT]: [Wild] shutdown: begin
+
+> Task :runClient FAILED
+gradlew.bat : 
+At line:3 char:1
++ & ".\gradlew.bat" runClient --console=plain --no-daemon *>&1 | Out-Fi ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':runClient' (registered by plugin 'fabric-loom').
+> Process 'command 'C:\Program Files\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin\java.exe'' finished with non-zero 
+exit value -1 (NTSTATUS 0xFFFFFFFF)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 50s
+7 actionable tasks: 1 executed, 6 up-to-date
